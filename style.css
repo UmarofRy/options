@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 64px;
+  background: #040225;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Магическая {
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: aliceblue;
+}
+
+.header_box {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+select {
+  font-size: 18px;
+  font-weight: 400;
+  background: #040225;
+  color: white;
+  border: none;
+}
+
+option {
+  background-color: #232028;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+
+.salom {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: aliceblue;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+  border: none;
+  transition: all 0.4s linear;
+  width: 175px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: none;
+  color: aliceblue;
+
+}
+
+button:hover {
+  color: black;
+  background-color: #BFAFF2;
+}
+
+.card {
+  width: 325px;
+  height: 240px;
+  border-radius: 32px;
+  background: #232028;
+
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+  color: white;
+}
+
+.paragrf {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: white;
+}
+
+.cards {
+  padding-top: 59px;
+}
+
+main {
+  padding-top: 100px;
+  height: 774px;
+  background-color: #06062c;
+}
+
+.naruto {
+  position: relative;
+  top: 55px;
+  left: 30px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  height: 64px;
+  background-color: #040225;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ina {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  transition: all 1s linear;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: 1px solid white;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
